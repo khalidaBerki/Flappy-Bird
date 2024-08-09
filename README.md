@@ -1,18 +1,46 @@
-## Getting Started
+# Flappy Bird
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java implementation of the classic Flappy Bird game using Swing for the graphical user interface. The game features a flying bird that the player controls to navigate through a series of pipes. 
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- **Simple Gameplay:** Control a bird to navigate through pipes.
+- **Score Tracking:** Displays the current score and high score.
+- **Game Over Screen:** Shows a game over message and the final score.
+- **Responsive Design:** Adapts to various screen sizes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Installation
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+To get started with this project, follow these steps:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/khalidaBerki/Flappy-Bird.git
+   ```
 
-## Dependency Management
+2. **Navigate to Project Directory:**
+   ```bash
+   cd Flappy-Bird
+   ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. **Build and Run:**
+   Make sure you have Java installed on your system. To compile and run the project, use the following commands:
+
+   Run App.java in your vscode.
+
+
+## Usage
+
+To play the game:
+
+1. **Start the Game:**
+   Run the application as described in the installation section.
+
+2. **Control the Bird:**
+   Press the `Space` key to make the bird jump.
+
+3. **Game Over:**
+   The game ends when the bird collides with a pipe or falls below the screen.
+
+4. **Restart the Game:**
+   Press the `Space` key after a game over to restart.
